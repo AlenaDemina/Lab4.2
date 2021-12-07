@@ -41,20 +41,6 @@ namespace Lab4._2
             v.Content = r;
         }
 
-        private void _3_Click(object sender, RoutedEventArgs e)
-        {
-            double x = double.Parse(A.Text);
-            double y = double.Parse(B.Text);
-            double r = x * y;
-            v.Content = r;
-        }
-
-        private void _4_Click(object sender, RoutedEventArgs e)
-        {
-            double x = double.Parse(A.Text);
-            double y = double.Parse(B.Text);
-            double r = x / y;
-            v.Content = r;
-        }
+        
     }
 }
