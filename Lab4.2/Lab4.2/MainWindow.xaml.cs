@@ -48,7 +48,6 @@ namespace Lab4._2
             double r = x * y;
             v.Content = r;
         }
-
         private void _4_Click(object sender, RoutedEventArgs e)
         {
             double x = double.Parse(A.Text);
