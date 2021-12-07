@@ -29,8 +29,8 @@ namespace Lab4._2
         {
             double x = double.Parse(A.Text);
             double y = double.Parse(B.Text);
-            double r = x + y;
-            v.Content = r;
+            double z = x + y;
+            v.Content = z;
         }
 
         private void _2_Click(object sender, RoutedEventArgs e)
